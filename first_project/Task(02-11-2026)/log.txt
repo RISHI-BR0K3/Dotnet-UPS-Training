@@ -1,0 +1,9 @@
+02-11-2026 | 09 : 32 AM | Deposit | Success 
+02-11-2026 | 09 : 33 AM | Deposit | Failed 
+02-11-2026 | 09 : 33 AM | Withdraw | Success 
+02-11-2026 | 09 : 33 AM | Withdraw | Failed 
+02-11-2026 | 09 : 33 AM | Check Balance | Success 
+02-11-2026 | 09 : 33 AM | Invalid Choice | Failed 
+02-11-2026 | 10 : 02 AM |  | Failed 
+02-11-2026 | 10 : 02 AM | Invalid Choice | Failed 
+02-11-2026 | 10 : 03 AM | Deposit | Success 
