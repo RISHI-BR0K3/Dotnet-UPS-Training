@@ -13,6 +13,7 @@ class Operation
 
     public void subtract()
     {
+        Console.WriteLine(Thread.CurrentThread.Name);
         Console.WriteLine("Subtraction Started");
         Thread.Sleep(1000);
         Console.WriteLine("Subtraction Ended");
@@ -40,7 +41,9 @@ class ExecOperation
         
         Operation op = new Operation();
         Thread t1 = new Thread(op.add);
+        t1.Name = "Addition Thread";
         Thread t2 = new Thread(op.subtract);
+        t2.Name = "Subtraction Thread";
 
         //static method
         Thread t3 = new Thread(() => Operation.mul(2,5));
