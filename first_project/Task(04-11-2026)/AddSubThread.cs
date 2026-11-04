@@ -8,6 +8,7 @@ class Operation
         Console.WriteLine("Addition Started");
         Thread.Sleep(2000);
         Console.WriteLine("Addition Ended");
+        Console.WriteLine(Thread.CurrentThread.Name);
     }
 
     public void subtract()
