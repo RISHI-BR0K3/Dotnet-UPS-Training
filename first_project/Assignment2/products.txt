@@ -1,0 +1,5 @@
+Milk,30,20
+Redbull,100,10
+Choclate,10,20
+Cookies,15,10
+WaterBottle,20,10
